@@ -35,10 +35,7 @@ public class CartListPage extends TestBase{
 	
 	@FindBy(xpath="//button[contains(text(),'Purchase')]")
 	WebElement purchasebtn;
-	
-//	@FindBy(xpath="(//h2)[3]")
-//	public WebElement verify;
-	
+		
 	@FindBy(xpath="//button[text()='OK']")
 	public WebElement accept;
 	

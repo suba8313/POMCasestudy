@@ -5,7 +5,10 @@
     <classes>
       <class name="TestScripts.FunctionScript">
         <methods>
-          <include name="additem" invocation-numbers="1"/>
+          <include name="purchase"/>
+          <include name="delete"/>
+          <include name="additem" invocation-numbers="0 1"/>
+          <include name="placeorder"/>
           <include name="startup"/>
         </methods>
       </class> <!-- TestScripts.FunctionScript -->

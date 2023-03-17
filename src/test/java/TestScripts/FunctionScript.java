@@ -84,13 +84,13 @@ public class FunctionScript extends TestBase{
 		  String path=System.getProperty("user.dir")+"//src//test//resources//Data//productlist.csv";
 		  String[] cols;
 		  CSVReader reader = new CSVReader(new FileReader(path));
-		  ArrayList<Object> dataList=new ArrayList<Object>();
+		  ArrayList<Object> List=new ArrayList<Object>();
 		  while((cols=reader.readNext())!=null)
 		  {
 			  Object[] record= {cols[0]};
-			  dataList.add(record);
+			  List.add(record);
 		  }
-		  return dataList.toArray(new Object[dataList.size()][]);
+		  return List.toArray(new Object[List.size()][]);
 		  
 	  }
 	
